@@ -24,12 +24,12 @@
   "flex-layout.col#right": {
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": "height: auto"
+      "preventVerticalStretch": true
     },
     "children": [
       "product-name",
       "product-price",
-      "buy-button#product"
+      "buy-button"
     ]
   },
 
@@ -47,7 +47,7 @@
     }
   },
 
-  "buy-button#product": {
+  "buy-button": {
     "props": {
       "isOneClickBuy": true,
       "showTooltipOnSkuNotSelected": false
