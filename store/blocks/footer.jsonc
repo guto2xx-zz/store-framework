@@ -23,15 +23,13 @@
 
   "flex-layout.col#footer-left-desktop": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks"
+      "accepted-payment-methods"
     ]
   },
 
   
   "flex-layout.col#footer-right-desktop": {
     "children": [
-      "accepted-payment-methods",
       "social-networks"
     ]
   },
