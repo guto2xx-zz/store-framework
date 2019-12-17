@@ -28,6 +28,14 @@
     ]
   },
 
+  
+  "flex-layout.col#footer-right-desktop": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks"
+    ]
+  },
+
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": ["mastercard", "visa", "diners club"]
@@ -42,9 +50,5 @@
         { "url": "https://twitter.com/foo", "name": "Twitter" }
       ]
     }
-  },
-
-  "flex-layout.col#footer-right-desktop": {
-    "children": []
   }
 }
